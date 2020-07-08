@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin: 0;
+    overflow-x: hidden; /* Hide scrollbars */
+}
+
+.navbar {
+    background-color: #28A745;
+    color: white;
+}
+.color-white {
+color: white;
+}
+.card-deck .titulo{
+    font-weight: 300;
+    font-size: 20px;
+}
+.card-deck .local{
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+
+.card-deck .address{
+ 
+    font-weight: 300;
+    font-size: 13px;
+    color: #707070;
+}
+
+.card-deck .pnormal{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+    text-align: right;
+}
+
+.card-deck .poferta{
+    color: #28A745;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.forma {
+    text-align: center;
+    background-color:  #28A745;
+}
+
+.form-title {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.t-gray {
+color: gray;
+}

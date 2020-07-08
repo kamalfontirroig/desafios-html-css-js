@@ -1,0 +1,49 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.bg-rosado {
+  background: #e83e8c;
+  color: white;
+}
+
+.icons-section {
+  background: #17A2B8;
+}
+
+.container img {
+  width: 50%;
+}
+
+footer img {
+  width: 5%;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.card-body h5 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.card p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.list-group-item, .card-link {
+  font-size: 11px;
+}
+
+.icons-section h3 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+

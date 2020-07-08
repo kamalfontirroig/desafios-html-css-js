@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    //ejercicio 1
+    function func1() {
+        var numero = prompt("Ingrese un numero del 1 a 100");
+        for (var i = 0; i < numero; i++) {
+            document.write(`<p>${i+1}</p>`)
+        }
+    }
+
+    //ejercicio 2
+    function func2() {
+        while (prompt("¿De  qué  color  es  el  caballo blanco de  Napoleón?") != 'blanco') {
+
+        }
+    };
+
+    //ejercicio 3
+    function func3() {
+        var nota1 = prompt("ingrese nota Matematicas");
+        var nota2 = prompt("ingrese nota FISICA");
+        var nota3 = prompt("ingrese nota Ciencias");
+        alert("Su promedio es  " + parseInt(((parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3)) / 3)));
+    }
+
+    //ejercicio 4, manzana no debia ser impreso, pero, me parecio mas comico tacharlo...
+    function func4() {
+
+
+        var frutas = [prompt("(1)Ingrese una fruta "), prompt("(2)Ingrese una fruta "), prompt("(3)Ingrese una fruta ")]
+        frutas.forEach(element => {
+            if (element != "manzana") document.write(`<p>${element}</p>`);
+            else document.write(`<p><strike>manzana</strike> tu no</p>`)
+        });
+
+    }
+
+    //ejercicio 5
+    function func5() {
+        var name = prompt("Ingrese su nombre")
+        var nVocales = name.match(/[aeiou]/gi).length;
+        var nConsonantes = name.match(/[^aeiou]/gi).toString().match(/[a-z]/gi).length;
+        alert("Cantidad de vocales: " + nVocales + "  -  Cantidad de consonantes: " + nConsonantes);
+    }
+
+    var opcion = prompt('Ingrese un numero del 1 al 6');
+    switch (opcion) {
+        case '1':
+            {
+
+                func1()
+                break;
+            }
+        case '2':
+            {
+                func2()
+                break;
+            }
+        case '3':
+            {
+                func3()
+                break;
+            }
+        case '4':
+            {
+                func4()
+                break;
+            }
+        case '5':
+            {
+                func5()
+                break;
+            }
+
+    }
+</script>
+
+</html>

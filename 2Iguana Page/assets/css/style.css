@@ -1,0 +1,136 @@
+body {
+    font-family: 'Raleway', ;
+    background: black;
+    color: white;
+    margin:0px;
+    height: 1937px;
+}
+
+
+
+.iguanas-inline1 p{
+font-family: Raleway;
+font-weight: 300;
+    font-size: 19px;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+}
+
+article {
+    color: white;
+    font-size: 4vw;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin:50px;
+    padding-right: 100px;
+     padding-left: 100px;
+}
+article h2{
+    font-size: 25px;
+    font-weight: 300;
+    
+    
+}
+
+.graybrown-backround {
+    background: #1E1A13;
+    font-family: Raleway;
+    font-weight:300;
+    font-size: 39px;
+    text-align: center;
+}
+.graybrown-backround p{
+font-size:  20px;
+    padding: 40px;
+    margin: 0;
+}
+
+
+.hero-iguana {
+    width: 100%
+}
+
+header {
+top: 0px;
+left: 0px;
+width: 100%;
+height: auto;
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 1;
+text-align: center;
+margin:0;
+    
+    
+}
+header p{
+
+width: 221px;
+margin: 0;
+display: inline-block;
+font: Medium Raleway;
+font-size: 59px;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.seccioniguana {
+    width: 100%;
+    font-family: Raleway;
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    /* border:1px solid red; */
+    padding-left: 25%;
+    padding-top: 30px;
+    
+}
+
+
+
+.iguanasfooter img{
+    margin-right: 20px;
+    height: 30vh;
+    margin-top:70px;
+    margin-bottom:40px;
+    
+}
+
+.iguanasfooter {
+            text-align: center;
+}
+
+h1 {
+    text-align: center;
+font-weight: 300;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+    font-size: 40px;
+    padding: 50px;
+}
+
+#txtIguana {
+    width: 400px;
+    height: 280px;
+    /* border: 1px solid green; */
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+#imgIguana {
+    width: 400px;
+    height: 245px;
+    /* border: 1px solid green; */
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 35px;
+  
+}

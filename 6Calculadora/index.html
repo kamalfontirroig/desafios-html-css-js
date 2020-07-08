@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora con JavaScript - {desafio} latam_</title>
+    <link type="text/css" href="estilos.css" rel="stylesheet">
+</head>
+
+<body onload="init();">
+
+    <table class="calculadora">
+        <tr>
+            <td colspan="4"><span id="log">Hola!</span></td>
+        </tr>
+        <tr>
+            <td><button onClick='actualizarNumero(this.value)' value='7'>7</button></td>
+            <td><button onClick='actualizarNumero(this.value)' value='8'>8</button></td>
+            <td><button onClick='actualizarNumero(this.value)' value='9'>9</button></td>
+            <td><button value='/' onClick='actualizarNumero(this.value)'>/</button></td>
+        </tr>
+
+        <tr>
+            <td><button onClick='actualizarNumero(this.value)' value='4'>4</button></td>
+            <td><button onClick='actualizarNumero(this.value)' value='5'>5</button></td>
+            <td><button onClick='actualizarNumero(this.value)' value='6'>6</button></td>
+            <td><button value='*' onClick='actualizarNumero(this.value)'>*</button></td>
+
+        </tr>
+
+        <tr>
+            <td><button onClick='actualizarNumero(this.value)' value='1'>1</button></td>
+            <td><button onClick='actualizarNumero(this.value)' value='2'>2</button></td>
+            <td><button onClick='actualizarNumero(this.value)' value='3'>3</button></td>
+            <td><button value='-' onClick='actualizarNumero(this.value)'>-</button></td>
+
+        </tr>
+
+        <tr>
+            <td> <button onclick='calcular(document.getElementById("log").innerHTML)'>=</button></td>
+            <td> <button value='clear' onClick='actualizarNumero(this.value)'>C</button></td>
+            <td> <button onClick='actualizarNumero(this.value)' value='0'>0</button></td>
+            <td> <button value='+' onClick='actualizarNumero(this.value)'>+</button></td>
+
+        </tr>
+
+
+
+    </table>
+
+
+    <script type="text/JavaScript" src="calculadora.js"></script>
+</body>
+
+</html>

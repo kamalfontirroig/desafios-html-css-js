@@ -1,0 +1,63 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.bg-rosado {
+  background: #e83e8c;
+  color: white;
+}
+
+.icons-section {
+  background: #17A2B8;
+}
+
+.icons-section h3 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.navbar-brand {
+  max-width: 150px;
+}
+
+/* .b-red {
+border: 1px solid red;
+}
+
+.b-green {
+border: 1px solid green;
+} */
+
+
+#logo-suricata{
+  width: 100%;
+}
+
+footer img {
+  width: 50px;
+}
+
+h1 {
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.card-body h5 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.card p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.list-group-item, .card-link {
+  font-size: 11px;
+}
+
+
+
